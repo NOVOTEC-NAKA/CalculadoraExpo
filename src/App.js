@@ -1,8 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native"
-import { Stack, createStackScreen } from "./src/Components/ScreenStacker"
-import AppTheme from './src/Components/AppTheme';
-import OperationsScreen from './src/Components/Screens/OperationsScreen';
+import { Stack, createStackScreen } from "./Components/ScreenStacker"
+import AppTheme from './Components/AppTheme';
+import OperationsScreen from './Components/Screens/OperationsScreen';
 
 function App() {
     const theme = AppTheme()
